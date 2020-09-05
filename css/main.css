@@ -1,0 +1,68 @@
+html, body {
+  box-sizing: border-box; }
+
+body {
+  background-image: url("../Images/bkg-img.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; }
+
+* {
+  margin: 0px;
+  padding: 0px; }
+
+.main-container {
+  width: 70%;
+  margin: auto; }
+
+#main-title {
+  font-family: 'Comfortaa', cursive;
+  margin-top: 10%;
+  font-size: 2.9rem;
+  color: #fff;
+  font-weight: bold;
+  text-align: center; }
+
+.exoplanets-container {
+  width: 100%;
+  padding-top: 60px; }
+
+.planet {
+  margin-top: 10px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 10px; }
+
+.exo-img {
+  padding-left: 20px;
+  padding-top: 20px;
+  width: 40%; }
+
+.planet-title {
+  color: #fff;
+  padding: 10px; }
+
+.exoplanets-title {
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  color: #fff;
+  color: #d9f000;
+  padding-top: 80px;
+  font-size: 3rem; }
+
+.planet-description {
+  padding: 10px;
+  font-family: 'Syne', sans-serif;
+  color: #fff;
+  font-size: 1.5rem; }
+
+.hidden {
+  display: none; }
+
+#loading-logo {
+  color: #fff;
+  font-size: 3rem;
+  padding-top: 100px;
+  text-align: center;
+  font-family: 'Merienda', cursive; }
